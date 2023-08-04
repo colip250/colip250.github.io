@@ -50,6 +50,10 @@ h3 {
     font-weight: 300;
     margin-bottom: 16px;
 }
+.emphasis {
+    font-weight: 900;
+}
+
 nav {
     padding: 32px 0px;
 }
@@ -61,7 +65,7 @@ nav {
     text-align: center;
     padding: 32px 0px;
 }
-.hero img {
+.hero > img {
     width: 210px;
     border: solid 1px #747476;
     margin-bottom: 24px;
@@ -83,6 +87,7 @@ nav {
 .button:hover, .submit:hover {
     background-color: #74747624;
 }
+
 .submit {
     float: right;
     margin-right: 10px;
@@ -184,6 +189,15 @@ footer{
 }
 .area {
     padding-top: 8px;
+}
+.no-shows {
+    text-align: center;
+    display: block;
+    background-color: #18171C;
+    width: 350px;
+    margin: 32px auto;
+    border-radius: 16px;
+    padding: 16px 24px
 }
 
 @media (max-width: 575px){
